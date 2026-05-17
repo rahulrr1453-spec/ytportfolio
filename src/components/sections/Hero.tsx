@@ -225,7 +225,7 @@ export function Hero() {
           className="pointer-events-none absolute bottom-[15%] left-6 z-10 md:bottom-[20%] md:left-12 lg:left-20"
           style={{ opacity: 0 }}
         >
-          <h2 className="brand-shimmer brand-reveal font-mono text-5xl font-black uppercase tracking-tighter md:text-8xl lg:text-9xl">
+          <h2 className="brand-shimmer brand-reveal font-mono text-4xl sm:text-5xl md:text-8xl lg:text-9xl">
             LIMITLESS.
           </h2>
           <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.4em] text-accent md:text-[12px]">

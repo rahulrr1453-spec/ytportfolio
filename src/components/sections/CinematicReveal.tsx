@@ -202,13 +202,13 @@ export function CinematicReveal() {
         <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center text-center">
           <h2
             ref={h2InevitableRef}
-            className="mb-2 font-mono text-xl font-medium uppercase tracking-[0.6em] text-zinc-500 opacity-0 md:text-2xl"
+            className="mb-2 font-mono text-xs md:text-xl font-medium uppercase tracking-[0.3em] md:tracking-[0.6em] text-zinc-500 opacity-0"
           >
             Satoru Gojo
           </h2>
           <h2
             ref={h2IronManRef}
-            className="glitch-text font-mono text-6xl font-black uppercase tracking-[-0.04em] text-white opacity-0 md:text-8xl lg:text-[10rem]"
+            className="glitch-text font-mono text-3xl sm:text-6xl font-black uppercase tracking-[-0.04em] text-white opacity-0 md:text-8xl lg:text-[10rem]"
             data-text="HOLLOW PURPLE"
           >
             HOLLOW PURPLE

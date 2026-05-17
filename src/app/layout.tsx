@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   description:
     "TYzEN — Cinematic anime edits, JJK, and visual storytelling. Subscribe on YouTube @TYzEN05.",
   metadataBase: new URL("http://localhost:3000"),
+  icons: {
+    icon: "/mainlogo.jpeg",
+    shortcut: "/mainlogo.jpeg",
+    apple: "/mainlogo.jpeg",
+  },
 };
 
 export default function RootLayout({
